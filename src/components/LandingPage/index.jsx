@@ -37,7 +37,7 @@ const LandingPage = () => {
         </div>
         <div className="d-flex socialIcons">
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/jean-yves-gatwaza-7897861b2/"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
@@ -45,17 +45,17 @@ const LandingPage = () => {
             <i className="bi bi-linkedin"></i>
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/jGatwaza"
             target="_blank"
             rel="noopener noreferrer"
             className="mx-2"
           >
             <i className="bi bi-github"></i>
           </a>
-          <a href="mailto:email@example.com" className="mx-2">
+          <a href="mailto:jgatwazakubwimana@college.harvard.edu" className="mx-2">
             <i className="bi bi-envelope"></i>
           </a>
-          <a href="tel:+1234567890" className="mx-2">
+          <a href="tel:+8577069663" className="mx-2">
             <i className="bi bi-telephone"></i>
           </a>
         </div>

@@ -44,6 +44,7 @@ p {
 
 .btn-primary {
     background-color: #7a5cf7;
+    font-family: "Open Sans", sans-serif;
     border: none;
     border-radius: 50px;
     padding: 1vw;
@@ -54,6 +55,7 @@ p {
 .btn-dark {
     display: flex;
     align-items: center;
+    font-family: "Open Sans", sans-serif;
     justify-content: center;
     border-radius: 50px;
     padding-left: 30px;
