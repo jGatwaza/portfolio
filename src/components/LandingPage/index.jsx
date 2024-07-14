@@ -19,22 +19,23 @@ const LandingPage = () => {
             href="https://www.harvard.edu"
             target="_blank"
             rel="noopener noreferrer"
+            className="harvardLabel"
           >
             Harvard University
           </a>
         </p>
         <div className="d-flex my-4">
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary"
             style={{ backgroundColor: "#7a5cf7", border: "none" }}
           >
-            Schedule a meeting
+            Schedule a meeting<i className="bi bi-calendar jyIcon1"></i>
           </button>
-          <button className="btn btn-dark mx-2">
-            My Resume <i className="bi bi-download"></i>
+          <button className="btn btn-dark">
+            My Resume <i className="bi bi-download jyIcon"></i>
           </button>
         </div>
-        <div className="d-flex ">
+        <div className="d-flex socialIcons">
           <a
             href="https://www.linkedin.com"
             target="_blank"
