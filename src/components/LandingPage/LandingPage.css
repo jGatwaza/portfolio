@@ -1,0 +1,70 @@
+.container {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+.heading{
+font-family: "Fira Code", monospace;
+font-size: 3.5rem;
+font-weight: 400;
+}
+.subHeading{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.hisName{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.description{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-left: 3px;
+}
+p {
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: #7a5cf7;
+    border: none;
+}
+
+.btn-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bi {
+    font-size: 24px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #7a5cf7;
+}
+.herorow{
+    display: flex;
+    margin-left: 10vw;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f8f9fa; */
+    
+}
