@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import {
   ContactShadows,
   Environment,
-  OrbitControls,
   Sky,
 } from "@react-three/drei";
 import { Avatar } from "./Avatar";
@@ -21,7 +20,6 @@ export const Experience = () => {
 
   return (
     <>
-      {/* <OrbitControls /> */}
       <Sky />
       <Environment preset="sunset" />
       <group position-y={-1} position-x={isMobile ? 0 : 1.5}>
