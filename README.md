@@ -1,2 +1,2 @@
 # portfolio
-https://jgatwaza.github.io/portfolio/
+https://jeanyvesgatwaza.netlify.app/
