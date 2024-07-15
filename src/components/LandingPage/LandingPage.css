@@ -123,6 +123,11 @@ a:hover {
     height: 100vh;
     
 }
-@media (max-width: 1349px) {
-
+@media (max-width: 600px) {
+    .container{
+        margin-left: 0 !important;
+    }
+    button{
+        padding: 3vw !important;
+    }
 }
