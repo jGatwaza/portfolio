@@ -33,7 +33,7 @@ font-weight: 400;
     margin-left: 3px;
 }
 .harvardLabel{
-    color: #7a5cf7;
+    color: #5032A8;
     text-decoration: none;
     font-weight: 600;
 }
@@ -43,17 +43,37 @@ p {
 }
 
 .btn-primary {
-    background-color: #7a5cf7;
+    background-color: #5032A8 !important;
     font-family: "Open Sans", sans-serif;
+    transition: 0.5s;
     border: none;
+    cursor: pointer;
     border-radius: 50px;
-    padding: 1vw;
+    padding: 2.5vh;
     padding-left: 30px;
     padding-right: 30px;
 }
-
+.btn a{
+    color: #fff;
+}
+.btn-primary:hover{
+    background-color: #181818 !important;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50px;
+    padding: 2.5vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn a:hover{
+    color: #fff;
+}
 .btn-dark {
     display: flex;
+    background-color: #181818 !important;
     align-items: center;
     font-family: "Open Sans", sans-serif;
     justify-content: center;
@@ -61,6 +81,11 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     margin-left: 5%;
+}
+.btn-dark:hover{
+    background-color: #5032A8 !important;
+    font-family: "Open Sans", sans-serif;
+    transition: 0.5s;
 }
 .socialIcons{
     font-size: 1.5rem !important;
@@ -86,7 +111,7 @@ a {
 }
 
 a:hover {
-    color: #7a5cf7;
+    color: #5032A8;
 }
 .herorow{
     display: flex;
@@ -94,6 +119,8 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-color: #f8f9fa; */
     
+}
+@media (max-width: 1349px) {
+
 }
