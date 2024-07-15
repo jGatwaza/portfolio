@@ -25,24 +25,26 @@ const LandingPage = () => {
           </a>
         </p>
         <div className="d-flex my-4">
-          <button
-            className="btn btn-primary"
-            style={{ backgroundColor: "#7a5cf7", border: "none" }}
+          <a
+            className="text-decoration-none"
+            target="__Blank"
+            href="https://calendly.com/gatwaza/30min"
           >
-            {" "}
-            <a
-              className="text-decoration-none"
-              target="__Blank"
-              href="https://calendly.com/gatwaza/30min"
+            <button
+              className="btn btn-primary"
+              style={{ backgroundColor: "#7a5cf7", border: "none" }}
             >
+              {" "}
               Schedule a meeting<i className="bi bi-calendar jyIcon1"></i>
-            </a>
-          </button>
-          <button className="btn btn-dark">
-            <a href={resume} className="text-decoration-none" target="__blank">
+            </button>
+          </a>
+          
+            <button className="btn btn-dark">
+              <a href={resume} className="text-decoration-none" target="__blank">
               My Resume <i className="bi bi-download jyIcon"></i>
-            </a>
-          </button>
+              </a>
+            </button>
+          
         </div>
         <div className="d-flex socialIcons">
           <a
