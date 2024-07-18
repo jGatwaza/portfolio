@@ -10,7 +10,7 @@ const LandingPage = () => {
       <div className="column md-6">
         <h5 className="subHeading">Designing with Empathy</h5>
         <h1 className="heading">
-          <span style={{ color: "#5032A8" }}>Coding</span> Innovation
+          <span style={{ color: "#784ef7" }}>Coding</span> Innovation
         </h1>
         <h4 className="hisName mt-3">Jean Yves Gatwaza</h4>
         <p className="mt-4 lead description">
@@ -38,15 +38,14 @@ const LandingPage = () => {
               Schedule a meeting<i className="bi bi-calendar jyIcon1"></i>
             </button>
           </a>
-          
-            <button className="btn btn-dark">
-              <a href={resume} className="text-decoration-none" target="__blank">
+
+          <button className="btn btn-dark">
+            <a href={resume} className="text-decoration-none" target="__blank">
               My Resume <i className="bi bi-download jyIcon"></i>
-              </a>
-            </button>
-          
+            </a>
+          </button>
         </div>
-        <div className="d-flex socialIcons">
+        <div className="d-flex socialIcons mt-4">
           <a
             href="https://www.linkedin.com/in/jean-yves-gatwaza-7897861b2/"
             target="_blank"
@@ -67,10 +66,10 @@ const LandingPage = () => {
             href="mailto:jgatwazakubwimana@college.harvard.edu"
             className="mx-2"
           >
-            <i className="bi bi-envelope"></i>
+            <i className="bi bi-envelope-fill"></i>
           </a>
           <a href="tel:+8577069663" className="mx-2">
-            <i className="bi bi-telephone"></i>
+            <i className="bi bi-telephone-fill"></i>
           </a>
         </div>
       </div>

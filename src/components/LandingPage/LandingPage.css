@@ -33,7 +33,7 @@ font-weight: 400;
     margin-left: 3px;
 }
 .harvardLabel{
-    color: #5032A8;
+    color: #784ef7;
     text-decoration: none;
     font-weight: 600;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 .btn-primary {
-    background-color: #5032A8 !important;
+    background-color: #784ef7 !important;
     font-family: "Open Sans", sans-serif;
     transition: 0.5s;
     border: none;
@@ -83,17 +83,18 @@ p {
     margin-left: 5%;
 }
 .btn-dark:hover{
-    background-color: #5032A8 !important;
+    background-color: #784ef7 !important;
     font-family: "Open Sans", sans-serif;
     transition: 0.5s;
 }
 .socialIcons{
     font-size: 1.5rem !important;
     transition: 0.5s;
+    margin-left: -0.8%;
     
 }
 .socialIcons a{
-    margin-right: 3% !important;
+    margin-right: 3.5% !important;
 }
 .jyIcon{
     font-size: 1rem !important;
@@ -112,7 +113,7 @@ a {
 }
 
 a:hover {
-    color: #5032A8;
+    color: #784ef7;
     transition: 0.5s;
 }
 .herorow{
