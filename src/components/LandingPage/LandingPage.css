@@ -84,6 +84,7 @@ p {
 }
 .btn-dark:hover{
     background-color: #784ef7 !important;
+    border-color: #784ef7;
     font-family: "Open Sans", sans-serif;
     transition: 0.5s;
 }

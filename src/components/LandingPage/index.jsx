@@ -10,9 +10,9 @@ const LandingPage = () => {
       <div className="column md-6">
         <h5 className="subHeading">Designing with Empathy</h5>
         <h1 className="heading">
-          <span style={{ color: "#784ef7" }}>Coding</span> Innovation
+          <span style={{ color: "#784ef7" }}>Jean Yves</span> Gatwaza
         </h1>
-        <h4 className="hisName mt-3">Jean Yves Gatwaza</h4>
+        <h4 className="hisName mt-3">Coding innovation</h4>
         <p className="mt-4 lead description">
           Computer Science & Economics @{" "}
           <a
