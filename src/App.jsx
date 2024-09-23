@@ -7,6 +7,7 @@ function App() {
     <>
       <Canvas shadows camera={{ position: [0, 0, 6], fov: 30 }}>
         <color attach="background" args={["#ececec"]} />
+        
         <ScrollControls pages={0}>
            <Experience />
            <Scroll html>

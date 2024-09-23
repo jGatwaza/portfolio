@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import {
   ContactShadows,
   Environment,
+  OrbitControls,
   Sky,
 } from "@react-three/drei";
 import { Avatar } from "./Avatar";
@@ -21,6 +22,13 @@ export const Experience = () => {
   return (
     <>
       <Sky />
+      <OrbitControls
+        enablePan={false}
+        enableZoom={false}
+        enableRotate={true}
+        maxPolarAngle={Math.PI * 0.5}
+        minPolarAngle={Math.PI * 0.5}
+      />
       <Environment preset="sunset" />
       <group position-y={-1} position-x={isMobile ? 0 : 1.5}>
         <ContactShadows
