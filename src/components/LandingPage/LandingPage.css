@@ -1,5 +1,9 @@
 .container {
     font-family: Arial, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 h1 {
@@ -55,6 +59,10 @@ p {
 }
 .btn a{
     color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .btn-primary:hover{
     background-color: #181818 !important;
@@ -111,6 +119,10 @@ p {
 
 a {
     color: #000;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 a:hover {

@@ -4,6 +4,7 @@ import {
   Environment,
   OrbitControls,
   Sky,
+  Grid,
 } from "@react-three/drei";
 import { Avatar } from "./Avatar";
 
@@ -21,7 +22,7 @@ export const Experience = () => {
 
   return (
     <>
-      <Sky />
+      <Sky sunPosition={[1000, 2000, 5000]}/>
       <OrbitControls
         enablePan={false}
         enableZoom={false}
@@ -47,9 +48,23 @@ export const Experience = () => {
           rotation-x={-Math.PI * 0.5}
           position-y={-0.001}
         >
-          <planeGeometry />
-          <meshStandardMaterial color="white" />
+          <planeGeometry/>
+          <meshStandardMaterial color={"#adc4c3"} />
         </mesh>
+
+        <Grid
+          position={[0, 0.002, 0]}
+          args={[100, 100]}
+          cellSize={0.812}
+          cellThickness={2}
+          cellColor="#000000"
+          sectionSize={10}
+          sectionThickness={1}
+          sectionColor="#000000"
+          fadeStrength={20}
+          fadeDistance={70}
+          infiniteGrid = {false}
+        />
       </group>
     </>
   );
